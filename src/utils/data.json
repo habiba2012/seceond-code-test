@@ -1,0 +1,36 @@
+
+[
+    {
+        
+        "name":"Louie Popp",
+        "image":"../assets/profile.svg",
+        "logo":"../assets/aCampaign.svg",
+        "option":"ActiveCampaign"
+
+    },
+    {    
+        "name":"Jonas Rafn",
+        "image":"../assets/profile.svg",
+        "logo":"../assets/googleAn.svg",
+        "option":"Google Analytics"
+    },
+    {
+        
+        "name":"Fiona Rakipi",
+        "image":"../assets/profile.svg",
+        "logo":"../assets/insta.svg",
+        "option":"Instagram"
+    },
+    {    
+        "name":"Marti Navne",
+        "image":"../assets/profile.svg",
+        "logo":"../assets/wocommerce.svg",
+        "option":"Woocommerce"
+    },
+    {    
+        "name":"Kristoffer Degn",
+        "image":"../assets/profile.svg",
+        "logo":"../assets/sopify.svg",
+        "option":"Sopify"
+    }
+]
