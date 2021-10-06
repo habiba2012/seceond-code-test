@@ -10,14 +10,14 @@ const Tabs = () =>{
   const [searchTerm, setSearchTerm] = useState("");
   const [selectOption, setSelectOption] = useState("");
   const [selectIntegration, setSelectIntegration] = useState("");
-  const [selectedItem, setSelectedItem] = useState("");
+  /* const [selectedItem, setSelectedItem] = useState("");
 
   const selectedList = (index) => {
 
     selectedItem[index] = !selectedItem[index]
     setSelectedItem(selectedItem)
   
-  }
+  } */
   
   const toggleTab = (index) => {
     setToggleState(index);
@@ -101,7 +101,7 @@ localStorage.removeItem("user-option")
         >
          
          <ReusableComponent name={users.name}  image={users.image} 
-         selectedList={selectedList } handleOption={handleOption }
+         handleOption={handleOption }
          />
         </div>
 
@@ -109,7 +109,7 @@ localStorage.removeItem("user-option")
           className={toggleState === 2 ? "content  active-content" : "content"}
         >
           <ReusableComponent options={users.option} logo={users.logo} 
-          handleIntegration={handleIntegration} selectedList ={selectedList }/>
+          handleIntegration={handleIntegration}/>
         </div>
       </div>
     
@@ -135,9 +135,7 @@ localStorage.removeItem("user-option")
         }
       
         </div>
-        
-        
-    </div>
+      </div>
   );
 }
 

@@ -9,7 +9,6 @@ const ReusableComponent = (
    logo, 
    handleOption, 
    handleIntegration,
-   selectedList 
   
    }) => {
 
