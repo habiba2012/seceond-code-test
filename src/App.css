@@ -17,8 +17,7 @@ body {
 }
 
 .container {
-
-  display: flex;
+ display: flex;
   flex-direction: column;
   position: relative;
   width: 340px;
@@ -31,17 +30,19 @@ body {
   border-radius: 5px;
 }
 
+.header{
+  padding:20px;
+  margin-bottom: 100px;
+}
 .bloc-tabs {
   display: flex;
 }
 .tabs {
-
   padding: 15px;
   text-align: center;
   width: 50%;
   background: rgba(128, 128, 128, 0.075);
   cursor: pointer;
-  /* border-bottom: 1px solid rgba(0, 0, 0, 0.274); */
   box-sizing: content-box;
   position: relative;
   outline: none;
@@ -127,8 +128,8 @@ li {
 position: absolute;
 top: 25%;
 color:#339933;
-margin-left: -160px;
-margin-top: -130px;
+margin-left: -110px;
+margin-top: -50px;
 width: 118px;
 height: 40px;
 border: 1.2px solid #339933;
